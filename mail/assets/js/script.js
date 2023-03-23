@@ -9,7 +9,7 @@ const listaMail = [
 let btnAccedi = document.getElementById("accedi");
 let btnRegistrati = document.getElementById("registrati");
 let btnLista = document.getElementById("btnLista");
-let message = document.getElementById("messaggio")
+let message = document.getElementById("messaggio");
 let output;
 const list = document.getElementById("lista");
 
@@ -61,7 +61,7 @@ btnAccedi.addEventListener("click", function(){
   message.innerHTML = output;
 })
 
-// Evento bottone Accedi
+// Evento bottone Registrati
 btnRegistrati.addEventListener("click", function(){
   const email = document.getElementById("email").value;
   let registrato = false;

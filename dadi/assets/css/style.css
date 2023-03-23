@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(1, 168, 190);
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+}
+
+i {
+  display: block;
+  font-size: 65px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 30px 40px;
+  transition: all 1s;
+} 
+
+.dx {
+  transform: rotate(90deg);
+}
+
+.sx {
+  transform: rotate(-90deg);
+}
+
+.win {
+  background-color: rgb(0, 95, 40) !important;
+}
+
+.lose {
+  background-color: rgb(143, 0, 0) !important;
+}
+
+.pareggio {
+  background-color: rgb(219, 186, 0) !important;
+}
+
+.gp-container {
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  padding: 35px;
+}
+
+.dado {
+  width: 120px;
+  height: 120px;
+  border-radius: 14px;
+}
+
+.dado-1 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/dado-1.png");
+  background-size: 130px;
+  background-position: center;
+}
+
+.dado-2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/dado-2.png");
+  background-size: 125px;
+  background-position: center;
+}
+
+.dado-3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/dado-3.png");
+  background-size: 125px;
+  background-position: center;
+}
+
+.dado-4 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/dado-4.png");
+  background-size: 125px;
+  background-position: center;
+}
+
+.dado-5 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/dado-5.png");
+  background-size: 125px;
+  background-position: center;
+}
+
+.dado-6 {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/dado-6.png");
+  background-size: 125px;
+  background-position: center;
+}
